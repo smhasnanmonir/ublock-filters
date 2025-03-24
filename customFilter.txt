@@ -279,3 +279,11 @@ facebook.com,facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion#@#di
 facebook.com##:is(h3,h2)[dir="auto"] ~ div:not([class]) > div[class] div[aria-posinset] :is(h3, h4) span > a[href]:not([href^="/groups/"]):not([href*="section_header_type"]):matches-attr(href="/__cft__\[0\]=[-\w]{270,}/"):upward(div[aria-posinset]):upward(8):style(height:0 !important; overflow:hidden !important;)
 facebook.com##:is([aria-posinset],[aria-describedby]:not([aria-posinset])):has-text(People You May Know):remove()
 
+www.youtube.com##+js(nano-stb, resolve(1), *, 0.001)
+www.youtube.com##+js(set, yt.config_.EXPERIMENT_FLAGS.web_enable_ab_rsp_cl, false)
+www.youtube.com##+js(set, yt.config_.EXPERIMENT_FLAGS.ab_pl_man, false)
+||googlevideo.com/videoplayback$xhr,3p,method=get,domain=www.youtube.com
+
+! Mar 21, 2025 https://smallpdf.com
+smallpdf.com##.fRRaFq.sc-12awoku-6 > button.dugEvo.ireDIG.sc-1ub8lkr-0.sc-11drgl3-0 > .gFCakf.wr2b8n-1
+smallpdf.com##.fRRaFq.sc-12awoku-6
