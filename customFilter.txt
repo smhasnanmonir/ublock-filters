@@ -219,3 +219,22 @@ streamed.su##.translate-x-0.transition-all.gap-2.flex-col.flex.h-full.md\:w-1\/4
 smallpdf.com##.fRRaFq.sc-12awoku-6 > button.dugEvo.ireDIG.sc-1ub8lkr-0.sc-11drgl3-0 > .gFCakf.wr2b8n-1
 smallpdf.com##.fRRaFq.sc-12awoku-6
 
+facebook.com##div[aria-label="Reels"]
+facebook.com##div[role="complementary"]
+www.facebook.com##[aria-label="reels"]:upward(2)
+www.facebook.com##[aria-label="Create"]:upward(2)
+www.facebook.com##span:has-text('Create'):upward(14)
+www.facebook.com##.x1ja2u2z.x1n2onr6.x9f619 > .xh8yej3.x1n2onr6.x78zum5 > .xquyuld.x10wlt62.x6ikm8r.xh8yej3.xt3gfkd.xu5ydu1.xdney7k.x1qpq9i9.x2bj2ny.x1ja2u2z.x1n2onr6.x9f619 > div > div > div > div:has-text(See more)
+www.facebook.com##.xdt5ytf.x78zum5 > .x1ja2u2z.x1n2onr6.x9f619 > .xh8yej3.x1n2onr6.x78zum5:has-text('Join')
+www.facebook.com##span:has-text('Suggested'):upward(14)
+www.facebook.com##.x1ja2u2z.x1n2onr6.x9f619 > .xh8yej3.x1n2onr6.x78zum5 > .xquyuld.x10wlt62.x6ikm8r.xh8yej3.xt3gfkd.xu5ydu1.xdney7k.x1qpq9i9.x2bj2ny.x1ja2u2z.x1n2onr6.x9f619 > div > div > div > div:has-text(Suggested for you)
+www.facebook.com##.xdt5ytf.x78zum5 > .x1ja2u2z.x1n2onr6.x9f619 > .xh8yej3.x1n2onr6.x78zum5:has-text('See More')
+www.facebook.com##.x1ja2u2z.x1n2onr6.x9f619 > .xh8yej3.x1n2onr6.x78zum5 > .xquyuld.x10wlt62.x6ikm8r.xh8yej3.xt3gfkd.xu5ydu1.xdney7k.x1qpq9i9.x2bj2ny.x1ja2u2z.x1n2onr6.x9f619 > div > div > div > div:has-text(Follow)
+www.facebook.com##:is([aria-posinset],[aria-describedby]:not([aria-posinset])) [aria-label="See more"][href="/reel/"]:upward([aria-posinset],[aria-describedby]:not([aria-posinset]))
+
+facebook.com##:is([aria-posinset],[aria-describedby]:not([aria-posinset])):has-text(People You May Know):remove()
+
+! - "uBo filters - Ads" - line 346 - dodgy? - disable it
+facebook.com,facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion#@#div[aria-describedby]:not([aria-posinset]) :is(h3, h4) span > a[href]:not([href="/groups/"]):not([href*="section_header_type"]):matches-attr(href="/cft[0]=[-\w]{270,}/"):upward(div[aria-describedby])
+  
+facebook.com,facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion##div[aria-describedby]:not([aria-posinset]) :is(h3, h4) span > a[href]:not([href="/groups/"]):not([href*="section_header_type"]):matches-attr(href="/cft[0]=[-\w]{270,}/"):upward(div[aria-describedby]):remove()
