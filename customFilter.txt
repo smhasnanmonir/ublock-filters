@@ -269,3 +269,12 @@ www.youtube.com##ytd-horizontal-card-list-renderer.style-scope.ytd-item-section-
 www.youtube.com##ytd-horizontal-card-list-renderer.style-scope.ytd-item-section-renderer
 www.youtube.com##ytd-shelf-renderer.style-scope.ytd-item-section-renderer:nth-of-type(2) > div.style-scope.ytd-shelf-renderer:nth-of-type(1)
 www.youtube.com##ytd-shelf-renderer.style-scope.ytd-item-section-renderer:nth-of-type(2)
+
+
+
+www.youtube.com/watch##+js(set, ytInitialData, undefined)
+www.youtube.com##+js(set, yt.config_.EXPERIMENT_FLAGS.service_worker_enabled, false)
+www.youtube.com##+js(nano-stb, resolve(1), *, 0.001)
+www.youtube.com##+js(set, yt.config_.EXPERIMENT_FLAGS.web_enable_ab_rsp_cl, false)
+www.youtube.com##+js(set, yt.config_.EXPERIMENT_FLAGS.ab_pl_man, false)
+||googlevideo.com/videoplayback$xhr,3p,method=get,domain=www.youtube.com
